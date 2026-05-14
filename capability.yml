@@ -1,0 +1,20 @@
+version: '1'
+name: hello-world
+workloads:
+  hello:
+    endpoints:
+    - mcp
+    runtime:
+      source:
+        toolchain: bun
+        prepare:
+          command: bun install
+          allow_network: true
+        start:
+          command: bun run src/index.ts
+expose:
+- path: /mcp
+  target: hello
+  default_mcp: true
+  endpoints:
+  - mcp
