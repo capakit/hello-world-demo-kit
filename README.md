@@ -7,6 +7,8 @@ Update kit-meta.json or capability.yml, then rerun the generator instead of hand
 
 Minimal AI app Kit that exposes a single MCP tool returning hello world.
 
+**Tags:** `mcp` `starter` `typescript` `bun`
+
 ## What It Does
 
 - Starts one Bun workload with an MCP endpoint.

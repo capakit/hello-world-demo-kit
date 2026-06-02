@@ -20,7 +20,9 @@
     "order": 10,
     "tags": [
       "mcp",
-      "starter"
+      "starter",
+      "typescript",
+      "bun"
     ]
   }
 }
