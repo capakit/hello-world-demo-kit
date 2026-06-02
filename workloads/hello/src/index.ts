@@ -1,4 +1,5 @@
-import { createRunnerSdk, endpointPath } from "@capakit/sdk";
+import { createRunnerSdk } from "@capakit/sdk";
+import { mountMcp } from "@capakit/sdk/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 const sdk = createRunnerSdk();
 sdk.hijackConsoleLogging();
@@ -27,9 +28,8 @@ mcpServer.registerTool(
     },
 );
 
-sdk.mount({
-    protocol: "mcp",
-    endpoint: endpointPath("/mcp"),
+mountMcp(sdk, {
+    endpoint: "/mcp",
     server: mcpServer,
 });
 

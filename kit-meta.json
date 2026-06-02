@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "displayName": "Hello World",
+  "repo": "https://github.com/capakit/hello-world-demo-kit",
+  "description": "Minimal AI app Kit that exposes a single MCP tool returning hello world.",
+  "whatItDoes": [
+    "Starts one Bun workload with an MCP endpoint.",
+    "Provides a tiny tool that is useful for validating CapaKit installation and skill wiring."
+  ],
+  "technologies": [
+    "CapaKit MCP endpoint",
+    "TypeScript",
+    "Bun"
+  ],
+  "skillProviders": [
+    "codex"
+  ],
+  "catalog": {
+    "featured": false,
+    "order": 10,
+    "tags": [
+      "mcp",
+      "starter"
+    ]
+  }
+}

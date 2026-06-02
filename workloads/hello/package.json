@@ -1,17 +1,18 @@
 {
-    "name": "hello-mcp-server",
-    "version": "0.1.0",
-    "private": true,
-    "type": "module",
-    "scripts": {
-        "start": "bun run src/index.ts"
-    },
-    "dependencies": {
-        "@capakit/sdk": "0.0.5",
-        "@modelcontextprotocol/sdk": "1.29.0"
-    },
-    "devDependencies": {
-        "@types/node": "22.12.0",
-        "typescript": "5.5.4"
-    }
+  "dependencies": {
+    "@capakit/sdk": "0.0.6-dev.20260602054715.5ddbb986",
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.12.0",
+    "typescript": "6.0.3"
+  },
+  "name": "hello-mcp-server",
+  "private": true,
+  "scripts": {
+    "start": "bun run src/index.ts"
+  },
+  "type": "module",
+  "version": "0.1.0"
 }

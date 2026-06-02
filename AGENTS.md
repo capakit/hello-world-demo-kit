@@ -1,6 +1,6 @@
-# CapaKit Kit
+# CapaKit AI App
 
-This directory is a CapaKit kit. Use the `capakit` CLI that matches the user's current workflow.
+This directory is a CapaKit Kit: the package/source unit for an AI app. Use the `capakit` CLI that matches the user's current workflow.
 
 ## Install CapaKit
 
@@ -24,7 +24,7 @@ Latest macOS downloads:
 After `capakit` is available, run:
 
 ```sh
-capakit kit agents-md print
+capakit agents-md print
 ```
 
 Use that command's output as the live CapaKit instructions for this binary. Prefer it over stale package-local guidance.
