@@ -50,7 +50,7 @@ Commands
 - Run:
   capakit run https://github.com/capakit/hello-world-demo-kit
 - Test:
-  capakit test /Users/roman/Code/capakit/demo_kits/hello-world-demo-kit
+  capakit test .
 ```
 
 ## Run
