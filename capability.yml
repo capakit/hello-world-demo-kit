@@ -9,7 +9,6 @@ workloads:
         toolchain: bun
         prepare:
           command: bun install
-          allow_network: true
         start:
           command: bun run src/index.ts
 expose:
