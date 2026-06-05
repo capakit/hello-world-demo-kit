@@ -8,9 +8,10 @@
     "Provides a tiny tool that is useful for validating CapaKit installation and skill wiring."
   ],
   "technologies": [
-    "CapaKit MCP endpoint",
-    "TypeScript",
-    "Bun"
+    "mcp",
+    "starter",
+    "typescript",
+    "bun"
   ],
   "skillProviders": [
     "codex"

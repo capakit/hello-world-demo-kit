@@ -7,8 +7,6 @@ Update kit-meta.json or capability.yml, then rerun the generator instead of hand
 
 Minimal AI app Kit that exposes a single MCP tool returning hello world.
 
-**Tags:** `mcp` `starter` `typescript` `bun`
-
 ## What It Does
 
 - Starts one Bun workload with an MCP endpoint.
@@ -16,9 +14,10 @@ Minimal AI app Kit that exposes a single MCP tool returning hello world.
 
 ## Technologies
 
-- CapaKit MCP endpoint
-- TypeScript
-- Bun
+- mcp
+- starter
+- typescript
+- bun
 
 ## App Kit Info
 
@@ -48,11 +47,18 @@ No external services declared.
 AI app Kit dependencies
 No AI app Kit dependencies declared.
 
+Use as dependency
+Add this to another Kit's capability.yml:
+dependencies:
+  hello-world:
+    source:
+      path: /Users/roman/Code/capakit/demo-kits/hello-world-demo-kit
+
 Commands
 - Run:
   capakit run https://github.com/capakit/hello-world-demo-kit
 - Test:
-  capakit test .
+  capakit test --kit /Users/roman/Code/capakit/demo-kits/hello-world-demo-kit
 ```
 
 ## Run
@@ -73,12 +79,6 @@ capakit run https://github.com/capakit/hello-world-demo-kit --global-skill codex
 capakit test .
 ```
 
-## Security
-
-Vault secrets are user-provided secrets available only to trusted integrations such as secure exit nodes. Kit secrets are Kit-local secrets that can be exposed to code workloads.
-
 ## About CapaKit
 
-CapaKit runs AI app Kits locally with isolated workloads, explicit mounts, and agent-friendly commands. Learn more at https://capakit.com.
-
-More AI app Kits: https://github.com/capakit/apps
+https://capakit.com
