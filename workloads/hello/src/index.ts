@@ -1,7 +1,7 @@
-import { createRunnerSdk } from "@capakit/sdk";
+import { createWorkloadSdk } from "@capakit/sdk";
 import { mountMcp } from "@capakit/sdk/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-const sdk = createRunnerSdk();
+const sdk = createWorkloadSdk();
 sdk.hijackConsoleLogging();
 
 const mcpServer = new McpServer({

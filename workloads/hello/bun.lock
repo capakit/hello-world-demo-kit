@@ -5,7 +5,7 @@
     "": {
       "name": "hello-mcp-server",
       "dependencies": {
-        "@capakit/sdk": "0.0.6-dev.20260603120812.cd880dfb",
+        "@capakit/sdk": "0.0.7",
         "@modelcontextprotocol/sdk": "1.29.0",
         "zod": "4.3.6",
       },
@@ -16,7 +16,7 @@
     },
   },
   "packages": {
-    "@capakit/sdk": ["@capakit/sdk@0.0.6-dev.20260603120812.cd880dfb", "", { "peerDependencies": { "@a2a-js/sdk": "^0.3.13", "@anthropic-ai/sdk": "^0.100.1", "@google/genai": "^2.7.0", "@modelcontextprotocol/sdk": "^1.29.0", "openai": "^6.41.0", "ws": "^8.21.0" }, "optionalPeers": ["@a2a-js/sdk", "@anthropic-ai/sdk", "@google/genai", "@modelcontextprotocol/sdk", "openai", "ws"] }, "sha512-YcNuSZNLccEXv2j4X7Cfeq0Ce9S4D15ijPdcHABIGDNPRcGqUbkKDXJ4cFbF8CBJNXypzF0+KZmSF/ED36NGEQ=="],
+    "@capakit/sdk": ["@capakit/sdk@0.0.7", "", { "peerDependencies": { "@a2a-js/sdk": "^0.3.13", "@anthropic-ai/sdk": "^0.100.1", "@google/genai": "^2.7.0", "@modelcontextprotocol/sdk": "^1.29.0", "openai": "^6.41.0", "ws": "^8.21.0" }, "optionalPeers": ["@a2a-js/sdk", "@anthropic-ai/sdk", "@google/genai", "@modelcontextprotocol/sdk", "openai", "ws"] }, "sha512-9HCr4iJnDLDmitlMWuvVdTRKAvhCp4BX3BTorxAAAfY8pU1omlBgW9nL1dYuGpvm6LI3zj0LGWxJYRrTgbJ5fg=="],
 
     "@hono/node-server": ["@hono/node-server@1.19.14", "", { "peerDependencies": { "hono": "^4" } }, "sha512-GwtvgtXxnWsucXvbQXkRgqksiH2Qed37H9xHZocE5sA3N8O8O8/8FA3uclQXxXVzc9XBZuEOMK7+r02FmSpHtw=="],
 
