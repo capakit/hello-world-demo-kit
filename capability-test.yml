@@ -1,22 +1,24 @@
 tests:
-  - id: says-hello
-    test: hello world tool returns structured text
-    exposed_path: /mcp
-    tool: hello-world
-    inputs: {}
-    verboseOutput:
+  - id: hello-world-tool-returns-structured-text
+    kind: mcp
+    target:
+      exposed_path: /mcp
+    request:
+      tool: hello-world
+      inputs: {}
+    verbose_output:
       - $.text
     validations:
       - $.text.eq("hello world")
-  - id: hello-typecheck
+  - id: hello-workload-typechecks
     kind: exec
-    test: hello workload typechecks
     target:
       workload: hello
-    command:
-      - bun
-      - x
-      - tsc
-      - --noEmit
+    request:
+      command:
+        - bun
+        - x
+        - tsc
+        - --noEmit
     validations:
       - $.exit_code.eq(0)
