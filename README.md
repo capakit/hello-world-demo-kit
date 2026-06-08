@@ -12,7 +12,7 @@ Minimal AI app Kit that exposes a single MCP tool returning hello world.
 - Starts one Bun workload with an MCP endpoint.
 - Provides a tiny tool that is useful for validating CapaKit installation and skill wiring.
 
-## Technologies
+## Tags
 
 - mcp
 - starter
