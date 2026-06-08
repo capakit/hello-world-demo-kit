@@ -1,5 +1,6 @@
 version: '1'
 name: hello-world
+license: Apache-2.0
 workloads:
   hello:
     endpoints:
