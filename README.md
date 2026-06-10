@@ -5,7 +5,7 @@ Update kit-meta.json or capability.yml, then rerun the generator instead of hand
 
 # Hello World
 
-Minimal AI app Kit that exposes a single MCP tool returning hello world.
+Minimal Kit that exposes a single MCP tool returning hello world.
 
 ## What It Does
 
@@ -19,10 +19,11 @@ Minimal AI app Kit that exposes a single MCP tool returning hello world.
 - typescript
 - bun
 
-## App Kit Info
+## Kit Info
 
 ```text
-AI app Kit: hello-world
+Kit: hello-world
+License: Apache-2.0
 
 Exposes
 - Public path: /mcp
@@ -44,8 +45,8 @@ No options declared.
 External services
 No external services declared.
 
-AI app Kit dependencies
-No AI app Kit dependencies declared.
+Kit dependencies
+No Kit dependencies declared.
 
 Use as dependency
 Add this to another Kit's capability.yml:
@@ -80,5 +81,7 @@ capakit test .
 ```
 
 ## About CapaKit
+
+CapaKit is a free runtime and CLI toolkit for building AI app Kits. When your agent builds, tests, or runs a Kit, it happens in isolation, not on your host.
 
 https://capakit.com
